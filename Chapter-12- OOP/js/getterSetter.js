@@ -20,10 +20,11 @@ var Rectangle = function(width, height){
     }
 
    Object.defineProperty(this,'position',{
+       // Getter
        get: function(){
            return position
        },
-       
+
        // Setter
        set: function(value){
             position = value
@@ -42,6 +43,7 @@ rect.position = {
     y: -100
 }
 
+// getter
 console.log(rect.position)
 
 

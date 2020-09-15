@@ -78,4 +78,3 @@ var testBind = myFun.bind({a: 10,b:15})
 testBind(5,10)
 
 
- 
